@@ -14,9 +14,7 @@ def generate_buzz():
     page += '<p>Here is some HTML code example!!... </p>'
     page += '</h1></body></html>'
     return page
-# def generate_buzz():
-#     buzz = generator.generate_buzz() 
-#     return render_template('index.html', buzz=buzz)
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=int(os.getenv('PORT', 5000)))
